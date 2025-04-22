@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[report configuration]]>
+    </line>
+    <line>
+      <![CDATA[configure the DB:connect]]>
+    </line>
+    <line>
+      <![CDATA[BT:parallel Exe]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[login to application]]>
+    </line>
+    <line>
+      <![CDATA[CreateOrganizationTest----started--]]>
+    </line>
+    <line>
+      <![CDATA[CreateOrganizationTest--sucess--]]>
+    </line>
+    <line>
+      <![CDATA[logout to application]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[login to application]]>
+    </line>
+    <line>
+      <![CDATA[Create_Contact_Test----started--]]>
+    </line>
+    <line>
+      <![CDATA[Create_Contact_Test--sucess--]]>
+    </line>
+    <line>
+      <![CDATA[logout to application]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+    <line>
+      <![CDATA[AT:parallel Exe]]>
+    </line>
+    <line>
+      <![CDATA[close the db connection]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-19T15:05:52 IST" name="Suite" finished-at="2025-04-19T15:07:18 IST" duration-ms="85445">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateContactScenariosTest.Create_Contact_Test()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" name="Create_Contact_Test" class="organization.CreateContactScenariosTest"/>
+        <method signature="CreateOrgScenariosTest.CreateOrganizationTest()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" name="CreateOrganizationTest" class="organization.CreateOrgScenariosTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-19T15:05:52 IST" name="Test" finished-at="2025-04-19T15:07:18 IST" duration-ms="85445">
+      <class name="organization.CreateOrgScenariosTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:05:51 IST" name="beforeSuite" finished-at="2025-04-19T15:05:52 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[configure the DB:connect]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:05:52 IST" name="beforeTest" finished-at="2025-04-19T15:05:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BT:parallel Exe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClsss()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:05:52 IST" name="beforeClsss" finished-at="2025-04-19T15:05:57 IST" duration-ms="4738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClsss -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:05:57 IST" name="beforeMethod" finished-at="2025-04-19T15:06:04 IST" duration-ms="6942" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:06:04 IST" name="CreateOrganizationTest" finished-at="2025-04-19T15:06:30 IST" duration-ms="26289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateOrganizationTest----started--]]>
+            </line>
+            <line>
+              <![CDATA[CreateOrganizationTest--sucess--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:06:30 IST" name="afterMethod" finished-at="2025-04-19T15:06:37 IST" duration-ms="6871" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:06:37 IST" name="afterClass" finished-at="2025-04-19T15:06:38 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:07:18 IST" name="afterTest" finished-at="2025-04-19T15:07:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AT:parallel Exe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:organization.CreateOrgScenariosTest@70ed52de]" started-at="2025-04-19T15:07:18 IST" name="afterSuite" finished-at="2025-04-19T15:07:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the db connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- organization.CreateOrgScenariosTest -->
+      <class name="organization.CreateContactScenariosTest">
+        <test-method is-config="true" signature="beforeClsss()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" started-at="2025-04-19T15:06:38 IST" name="beforeClsss" finished-at="2025-04-19T15:06:40 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClsss -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" started-at="2025-04-19T15:06:40 IST" name="beforeMethod" finished-at="2025-04-19T15:06:41 IST" duration-ms="1724" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Create_Contact_Test()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" started-at="2025-04-19T15:06:41 IST" name="Create_Contact_Test" finished-at="2025-04-19T15:07:10 IST" duration-ms="28538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create_Contact_Test----started--]]>
+            </line>
+            <line>
+              <![CDATA[Create_Contact_Test--sucess--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Create_Contact_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" started-at="2025-04-19T15:07:10 IST" name="afterMethod" finished-at="2025-04-19T15:07:17 IST" duration-ms="7177" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout to application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:organization.CreateContactScenariosTest@247310d0]" started-at="2025-04-19T15:07:17 IST" name="afterClass" finished-at="2025-04-19T15:07:18 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- organization.CreateContactScenariosTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
