@@ -48,7 +48,7 @@ public class Baseclass {
 	public void beforeClsss() throws IOException {
 		Reporter.log("launch the browser",true);
 		ClassObject_Utility.getTest().log(Status.INFO, "launching the browsr");
-		
+		//Fetch data from maven and prop file
 		String Browser=System.getProperty("Browser",pro.FetchDatafromPropertyfile("Browser"));
 		//launch the browser
 		if (Browser.equals("chrome")) {
