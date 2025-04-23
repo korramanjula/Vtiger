@@ -25,6 +25,7 @@ import GenericUtilities.Webdriver_Utility;
 import POM.HomePomPage;
 import POM.LoginPomPage;
 
+//GIT merge
 public class Baseclass {
 	Dtabase_Utility db=new Dtabase_Utility();
 	public  WebDriver driver=null;
